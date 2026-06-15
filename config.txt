@@ -1,0 +1,30 @@
+# config.txt — Configuración compartida para servicios y red
+# Usado por: servicios.sh y red.sh
+#
+# ─── SECCIÓN [servicios] ─────────────────────────────────────
+# Lista de servicios a monitorear con servicios.sh
+# Un servicio por línea (nombre exacto del unit de systemd)
+#
+[servicios]
+ssh
+cron
+networking
+# apache2
+# mysql
+# nginx
+# postgresql
+# ufw
+# rsyslog
+
+# ─── SECCIÓN [red] ───────────────────────────────────────────
+# Lista de hosts/IPs a revisar con red.sh
+# Formato: host[:puerto1,puerto2,...]
+# Sin puertos → solo se hace ping
+# Con puertos → ping + verificación de cada puerto
+#
+[red]
+localhost:22
+8.8.8.8
+# 192.168.1.1:22,80,443
+# 192.168.1.50:3306
+# google.com:80,443

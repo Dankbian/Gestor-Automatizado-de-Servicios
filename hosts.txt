@@ -1,0 +1,8 @@
+# hosts.txt — Lista de hosts remotos para remoto.sh
+# Formato: usuario@IP   (una entrada por línea)
+# Las líneas que empiezan con # son comentarios
+#
+# Ejemplos:
+# daniel@192.168.1.67
+# camila@192.168.1.68
+# marcos@10.0.0.5
