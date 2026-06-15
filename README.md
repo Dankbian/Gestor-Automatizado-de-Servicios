@@ -86,7 +86,7 @@ Monitoreo de CPU y disco con umbrales configurables.
 ```bash
 ./monitoreo.sh localhost                  # umbrales default (70%)
 ./monitoreo.sh localhost 85 90            # umbral CPU=85%, disco=90%
-./monitoreo.sh jorge@192.168.1.50 70 80  # modo remoto
+./monitoreo.sh user@192.168.1.50 70 80  # modo remoto
 ```
 
 - Registra CADA lectura en log, con o sin alerta
@@ -101,7 +101,7 @@ Revisión y reinicio automático de servicios listados en config.txt.
 ```bash
 ./servicios.sh                        # modo local
 ./servicios.sh localhost              # modo local explícito
-./servicios.sh jorge@192.168.1.87    # modo remoto
+./servicios.sh user@192.168.1.87    # modo remoto
 ```
 
 - Reinicia automáticamente servicios inactivos
