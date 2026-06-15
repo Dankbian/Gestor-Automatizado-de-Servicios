@@ -188,6 +188,6 @@ Log: `logs/inventario.log`
 | `bc`        | Cálculo de porcentajes |
 
 ```bash
-# Instalar dependencias en Debian/Ubuntu:
+# Instalar dependencias en Debian:
 sudo apt install curl openssh-client netcat-openbsd bc
 ```
