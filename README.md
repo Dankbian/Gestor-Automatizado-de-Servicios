@@ -2,7 +2,7 @@
 Gestor Automatizado de Servicios con Notificación por Telegram
 
 # Estructura
-
+```
 Gestor-Automaatizado-de-Servucios/
 ├── config.sh ← TOKEN, CHAT_ID, enviar_alerta(), registrar_log()
 ├── usuarios.sh ← gestión de cuentas del sistema
@@ -17,5 +17,4 @@ Gestor-Automaatizado-de-Servucios/
 └── logs/
 ├── usuarios.log · respaldo.log · monitoreo.log · servicios.log
 └── remoto.log · red.log · inventario.log
-
-
+```
