@@ -6,8 +6,8 @@
 #=============================================================
 
 # ── Telegram ─────────────────────────────────────────────────
-TELEGRAM_TOKEN="ACAVAELTOKEN"
-TELEGRAM_CHAT="-ACAVAELCHAT"
+TELEGRAM_TOKEN="8289233106:AAFkzZnnrwHytGOLmV_MQKz02MW4QJUjeL4"
+TELEGRAM_CHAT="-1004407895363"
 TELEGRAM_URL="https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage"
 
 # ── Directorio de logs ────────────────────────────────────────
