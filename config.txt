@@ -15,7 +15,7 @@ networking
 # postgresql
 # ufw
 # rsyslog
-
+#
 # ─── SECCIÓN [red] ───────────────────────────────────────────
 # Lista de hosts/IPs a revisar con red.sh
 # Formato: host[:puerto1,puerto2,...]
@@ -28,3 +28,15 @@ localhost:22
 # 192.168.1.1:22,80,443
 # 192.168.1.50:3306
 # google.com:80,443
+#
+# ─── SECCIÓN [bot] ───────────────────────────────────────────
+# Configuración del Bot de Telegram
+TELEGRAM_TOKEN="8289233106:AAFkzZnnrwHytGOLmV_MQKz02MW4QJUjeL4"
+TELEGRAM_CHAT_ID="-1004407895363"
+#
+# Umbrales para monitoreo.sh
+UMBRAL_CPU=70
+UMBRAL_DISCO=70
+#
+# Lista de servicios para servicios.sh
+SERVICIOS_A_REVISAR="apache2 ssh cron"
