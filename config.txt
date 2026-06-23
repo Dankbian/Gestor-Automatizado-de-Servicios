@@ -35,8 +35,8 @@ TELEGRAM_TOKEN="8289233106:AAFkzZnnrwHytGOLmV_MQKz02MW4QJUjeL4"
 TELEGRAM_CHAT_ID="-1004407895363"
 #
 # Umbrales para monitoreo.sh
-UMBRAL_CPU=70
-UMBRAL_DISCO=70
+# UMBRAL_CPU=70
+# UMBRAL_DISCO=70
 #
 # Lista de servicios para servicios.sh
-SERVICIOS_A_REVISAR="apache2 ssh cron"
+# SERVICIOS_A_REVISAR="apache2 ssh cron"
